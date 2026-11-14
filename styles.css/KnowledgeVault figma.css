@@ -1,3 +1,135 @@
-.nav-header{
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 346px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.nav-header img {
+  width: 120px;
+  height: 40px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  gap: 32px;
+  width: 400px;
+}
+.menu li a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.btn-container button {
+  width: 164px;
+  border-radius: 4px;
+  padding: 12px 16px;
+  background-color: #469165;
+}
+.banner {
+  width: 100%;
+  height: 675px;
+  text-align: center;
+  background-image: url(/images/assets/hero-bg.png);
+}
+.heading {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.btn {
+  padding: 8px 12px 8px 34px;
+  border-radius: 1000px;
+  margin-top: 124px;
+}
+
+.heading h1 {
+  font-size: 80px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+.heading h1 .span-1 {
+  color: white;
+}
+.heading h1 .span-2 {
+  color: #30b868;
+}
+.heading p {
+  font-size: 23px;
+  line-height: 28px;
+  color: #ffffff;
+  margin: 16px 295px 32px 295px;
+}
+.btn-head {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.btn-2 {
+  padding: 17px 46px 17px 16px;
+  background-color: #469165;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.btn-3 {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  border-radius: 4px;
+  padding: 17px 16px 17px 46px;
+}
+
+.access-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 28px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    color: #4A966C;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    white-space: nowrap;
+}
+
+.status-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #D9E9DF;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #4A966C;
 }
