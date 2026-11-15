@@ -89,7 +89,8 @@ nav {
   gap: 16px;
 }
 .btn-2 {
-  padding: 17px 46px 17px 16px;
+  /* padding: 17px 46px 17px 16px; */
+  padding: 12px 16px;
   background-color: #469165;
   border-radius: 4px;
   font-size: 16px;
@@ -100,7 +101,8 @@ nav {
   font-weight: 600;
   background-color: white;
   border-radius: 4px;
-  padding: 17px 16px 17px 46px;
+  /* padding: 17px 16px 17px 46px; */
+  padding: 12px 16px;
 }
 
 .access-badge {
@@ -132,4 +134,82 @@ nav {
     height: 20px;
     border-radius: 50%;
     background-color: #4A966C;
+}
+.card-container{
+  padding: 0px 120px 120px 120px;
+  background-color: #62738204;
+
+}
+.card-info{
+  text-align: center;
+
+}
+.card-info h2{
+  font-size: 48px;
+  font-weight: bold;
+  padding-top: 55px;
+  margin-bottom: 16px;
+  color: #001931;
+}
+.card-info p{
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 44px;
+color: #627382;
+}
+.card-1{
+  border: 2px solid #62738214;
+margin: 2px ;
+max-width: 322px;
+height: 300px;
+border-radius: 2px;
+background-color: #FFFFFF;
+}
+.card-2{
+  border: 2px solid #62738214;
+margin: 2px ;
+max-width: 322px;
+height: 300px;
+border-radius: 2px;
+background-color: #FFFFFF;
+}
+.card-3{
+  border: 2px solid #62738214;
+margin: 2px ;
+max-width: 322px;
+height: 300px;
+border-radius: 2px;
+background-color: #FFFFFF;
+}
+.card-4{
+  border: 2px solid #62738214;
+margin: 2px ;
+max-width: 322px;
+height: 300px;
+border-radius: 2px;
+background-color: #FFFFFF;
+}
+.card-mini-container{
+  display: flex;
+  gap: 24px;
+
+
+}
+.card-mini-container img{
+  background-color: #F95555;
+  border-radius: 50px;
+  padding: 12px;
+  margin: 70px 131px 16px 131px;
+}
+.card-mini-container h3{
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0px 24px 16px 24px;
+  color: #001931;
+}
+.card-mini-container p{
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+  margin: 0px 24px 70px 24px;
 }
